@@ -3,6 +3,7 @@
 // import viteLogo from '/vite.svg'
 import './App.css'
 import SideNav from './components/Shared/SideNav'
+import Search from './pages/Search/Search'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -13,6 +14,7 @@ function App() {
         <main className='basis-3/4'>
           <h1 className="text-3xl font-bold underline">
             Hello world!
+            <Search />
           </h1>
         </main>
       </section>
